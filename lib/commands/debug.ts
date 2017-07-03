@@ -25,7 +25,7 @@
 		const devices = this.$devicesService.getDeviceInstances();
 
 		if (this.$options.start) {
-			return this.$debugLiveSyncService.printDebugInformation([await this.debugService.debug(debugData, debugOptions)]);
+			return this.$debugLiveSyncService.printDebugInformation(await this.debugService.debug(debugData, debugOptions));
 		}
 
 		this.$config.debugLivesync = true;

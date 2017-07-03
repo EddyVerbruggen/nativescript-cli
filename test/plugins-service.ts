@@ -391,7 +391,7 @@ describe("Plugins service", () => {
 						}
 					},
 					"devDependencies": {
-						"grunt": "0.4.`2`"
+						"grunt": "0.4.2"
 					}
 				};
 				let fs = testInjector.resolve("fs");
